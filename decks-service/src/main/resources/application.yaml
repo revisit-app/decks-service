@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: decks-service
+
+astra:
+  secure-connect-bundle: secure-connect-bundle.zip
+  username: <client-id>
+  password: <client-secret>
+  keyspace: <keyspace> 
+
