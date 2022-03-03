@@ -34,16 +34,13 @@ public class Deck {
     private Instant dateUpdated;
 
     @Column("num_cards")
-    private int numCards;
+    private Long numCards;
 
     @Column("num_saves")
-    private int numSaves;
-
-    @Column("num_likes")
-    private int numLikes;
+    private Long numSaves;
 
     private List<String> cards;
 
     @Column("saved_by")
-    private List<String> savedBy;
+    private List<Long> savedBy;
 }
